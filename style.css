@@ -36,13 +36,14 @@ header{
     padding:15px;
     border-radius: 40px;
 }
-#first{
+ #first{
     background-color: gray;
 }
+
 #second{
     background-color: #35424a;
 }
-.topbar ul li:hover{
+#first hover{
     background-color: maroon;
 }
 nav ul{
@@ -58,4 +59,45 @@ nav ul li a{
     color:#35424a;
     text-decoration: none;
     font-weight: bold;
+}
+.main-menu img{
+    height:450px;
+    width:90%;
+}
+.main-menu .content{
+   position: absolute;
+   top:50%;
+   left:30%;
+   border: 2px solid black;
+   padding: 20px;
+}
+.main-menu .content p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-menu .content h2{
+    color:black;
+    padding:15px;
+    border: 2px solid white;
+    border-radius: 40px;
+    text-align: center;
+}
+.container #paragraph{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.sectors{
+    width: 100%;
+	height: auto;
+	display:inline-block;
+	border: 1px  solid rgb(0,0,0);
+}
+.sectors .sector1
+{
+	width:20%;
+	height:310px;
+	float: left;
+	margin-left: 8%;
+    padding-top:70px;
 }
